@@ -1,0 +1,127 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #f7f7f7;
+}
+
+#jumei {
+	width: 1090px;
+	height: 355px;
+	margin: 10px auto;
+	/*border: 4px solid blue;*/
+	position: relative;
+	overflow: hidden;
+}
+
+#jumei .jisu {
+	position: absolute;
+}
+
+#jumei .kouhong {
+	width: 1290px;
+	height: 340px;
+	position: absolute;
+	left: -190px;
+	top: 0;
+}
+
+#jumei .right {
+	width: 462px;
+	height: 332px;
+	position: absolute;
+	top: 17px;
+	right: 17px;
+	box-shadow: 0px 0px 4px 1px #e6e6e6;
+	background: #ffffff;
+}
+
+#jumei .right .time {
+	width: 194px;
+	height: 26px;
+	background: #333333;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 26px;
+	position: absolute;
+	left: 134px;
+	top: -2px;
+}
+
+#jumei .right .des {
+	text-decoration: none;
+	font-size: 16px;
+	color: #767676;
+	line-height: 24px;
+	width: 371px;
+	display: block;
+	position: absolute;
+	left: 40px;
+	top: 61px;
+}
+
+#jumei .right .price {
+	position: absolute;
+	top: 227px;
+	left: 40px;
+	font-size: 34px;
+	line-height: 34px;
+	font-family: arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+}
+
+#jumei .right .price span:first-of-type {
+	font-size: 20px;
+	position: relative;
+	top: -6px;
+	margin-right: 3px;
+}
+
+#jumei .right .price span:last-of-type {
+	text-decoration: line-through;
+	font-size: 12px;
+	margin-left: 6px;
+	color: rgb(114, 114, 114);
+}
+
+#jumei .right .free {
+	width: 134px;
+	height: 45px;
+	position: absolute;
+	left: 32px;
+	bottom: 13px;
+}
+
+#jumei .right .golook {
+	display: block;
+	width: 106px;
+	height: 36px;
+	background: #e81a62;
+	text-align: center;
+	font-size: 14px;
+	line-height: 36px;
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	bottom: 64px;
+	right: 40px;
+}
+
+#jumei .right .total {
+	position: absolute;
+	bottom: 26px;
+	right: 40px;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+#jumei .right .total span {
+	font-size: 18px;
+	vertical-align: middle;
+	/*或者使用相对定位*/
+	/*position: relative;*/
+	/*top: 4px;*/
+	color: rgb(185, 150, 106);
+}
